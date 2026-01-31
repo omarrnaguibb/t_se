@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main_Page from "./Main_Page";
 import Login from "./Login";
 
-export const serverRoute = 'http://localhost:8080'
-// export const serverRoute = "https://betam-se-eowh.onrender.com";
+// export const serverRoute = 'http://localhost:8080'
+export const serverRoute = "https://tamn-ser.onrender.com";
 export const token = localStorage.getItem("token");
 function App() {
   return (
